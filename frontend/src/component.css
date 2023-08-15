@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap");
+body {
+  background: linear-gradient(to bottom right, #4f7cff 0%, #4f7cff 50%, #3d5fc4 50%, #3d5fc4 1000%);
+  
+}
+
+.inr-sign::before{
+  content:"\20B9";
+  }
+
+  @media screen and (max-widht: 480px) {
+    .respo {
+      text-indent: 100%;
+    }
+    .sub {
+      margin-bottom: 0px;
+    }
+  }
+  .button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: center;
+    background-color: blue;
+  }
+  .sub {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 50px;
+  }
